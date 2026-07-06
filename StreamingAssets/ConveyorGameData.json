@@ -1,13 +1,13 @@
 {
   "game_template": "Conveyor Classifier",
-  "topic": "Natural and Synthetic Fibres",
+  "topic": "Acids, Bases, and Salts",
   "total_levels": 3,
   "max_total_xp": 200,
   
   "levels": [
     {
       "level": 1,
-      "objective_text": "Sort fibres into Natural or Synthetic categories!",
+      "objective_text": "Sort substances into Acid, Base, or Neutral beakers!",
       "conveyor_speed_modifier": 0.5,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 6,
@@ -89,7 +89,7 @@
     {
       "level": 2,
       "objective_text": "Observe the reactions and sort substances correctly!",
-      "conveyor_speed_modifier": 0.5,
+      "conveyor_speed_modifier": 0.8,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 5,
       "xp_per_correct": 7,
@@ -127,7 +127,7 @@
         {
           "id": "hem",
           "display_text": "From Plant",
-          "correct_category_name": "Natural",
+          "correct_category_name": "BASE",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "PH_INDICATOR_RED"
         },
@@ -178,8 +178,8 @@
 
     {
       "level": 3,
-      "objective_text": "Expert sorting: Identify fibre origins by image alone!",
-      "conveyor_speed_modifier": 0.5,
+      "objective_text": "Expert sorting: Identify weak and strong acids/bases by image alone!",
+      "conveyor_speed_modifier": 0.8,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 9,
       "xp_per_correct": 8,
