@@ -1,9 +1,7 @@
-const CACHE_NAME = 'fiber-classifier-v1';
+const CACHE_NAME = 'fiber-classifier-v2';
 const BUILD_FILES = [
   'Build/GameBuild.loader.js',
   'Build/GameBuild.framework.js',
-  'Build/GameBuild.data.gz',
-  'Build/GameBuild.wasm.gz',
 ];
 
 self.addEventListener('install', (event) => { self.skipWaiting(); });
